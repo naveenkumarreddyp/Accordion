@@ -1,0 +1,26 @@
+.body{
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 248, 229);
+}
+.accordion{
+  width:800px;
+}
+.item{
+  background-color: rgb(204, 174, 136);
+  margin: 2px;
+  padding:2px 15px;
+  border-radius: 10px;
+}
+.question{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.question span{
+  font-size: 1.5em;
+}
